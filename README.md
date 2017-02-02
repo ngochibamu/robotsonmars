@@ -7,12 +7,20 @@ This problem was solved with:
 *Gradle 3.2
 
 ###Cloning code
+```
+git clone git@github.com:ngochibamu/robotsonmars.git
+```
+`cd robotsonmars`
 
 ###Running unit test 
-To see running unit test
+To see running unit test. Make sure you in robotsonmars/ application folder
 `gradle test`
 
 To run unit test again 
 `gradle test --rerun-tasks`
 
-###Building 
+###Building and running app
+`cp build/libs/robotsonmars.0.0.1.jar .`
+
+`java -jar robotsonmars-0.0.1.jar [instruction file]`
+

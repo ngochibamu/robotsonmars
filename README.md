@@ -17,12 +17,16 @@ cd robotsonmars
 ###Running unit test 
 To see running unit test. Make sure you in robotsonmars/ application folder
 ```
-gradle test or ./gradlew clean test
+gradle test 
+```
+OR
+```
+./gradlew clean test
 ```
 
 To run unit test again 
 ```
-gradle test --rerun-tasks``
+gradle test --rerun-tasks
 ```
 
 ###Building and running app

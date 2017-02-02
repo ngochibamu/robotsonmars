@@ -10,17 +10,27 @@ This problem was solved with:
 ```
 git clone git@github.com:ngochibamu/robotsonmars.git
 ```
-`cd robotsonmars`
+```
+cd robotsonmars
+```
 
 ###Running unit test 
 To see running unit test. Make sure you in robotsonmars/ application folder
-`gradle test`
+```
+gradle test or ./gradlew clean test
+```
 
 To run unit test again 
-`gradle test --rerun-tasks`
+```
+gradle test --rerun-tasks``
+```
 
 ###Building and running app
-`cp build/libs/robotsonmars.0.0.1.jar .`
+```
+cp build/libs/robotsonmars.0.0.1.jar .
+```
 
-`java -jar robotsonmars-0.0.1.jar [instruction file]`
+```
+java -jar robotsonmars-0.0.1.jar [instruction file]
+```
 

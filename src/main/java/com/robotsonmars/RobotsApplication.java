@@ -38,7 +38,8 @@ public class RobotsApplication implements CommandLineRunner{
 		}
 		try{
 			robotsManager.init(Paths.get(args[0])).processAction().displayRobotPosition();			
-		}catch(IOException e){
+		}catch(Exception e){
+			System.out.println("Instruction file has corrupted/meaningless data.");
 			LOGGER.error("Unable to read instruction file: {}", args[0],e);
 		}
 	}
